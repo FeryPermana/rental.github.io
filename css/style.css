@@ -1,0 +1,677 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin-right: -12px;
+}
+
+.navbar {
+    background-color: #F1E2BC;
+    z-index: 1;
+}
+
+.navbar .container .navbar-brand {
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Rokkitt', serif;
+}
+
+.dropdown-item {
+    color: blue !important;
+}
+
+.navbar-nav .nav-item .fa-grip-lines {
+    padding-left: 320px !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: blue !important;
+}
+
+.av {
+    background-color: blue;
+    color: white !important;
+}
+
+.navbar-nav .nav-item .sd {
+    font-size: 15px;
+    text-align: left;
+    width: 10px;
+}
+
+.logo img {
+    float: left;
+    width: 60px;
+    height: auto;
+}
+
+
+/* Jumbotron ferry  */
+
+
+/* mengatur lembar jumbtoron */
+
+.jumbotron {
+    background-image: url(../img/Jumbotron.jpg);
+    position: absolute;
+    height: 645px;
+    top: 70px;
+    width: 100%;
+}
+
+.jumbotron a:link {
+    color: red;
+}
+
+.jumbotron a:visited {
+    color: black;
+}
+
+.jumbotron a:hover {
+    color: blue;
+}
+
+.jumbotron a:active {
+    color: black;
+}
+
+
+/* mengatur kata pesan */
+
+.jumbotron p {
+    font-size: 20px;
+    color: #000000;
+}
+
+.jumbotron .container-jumbotron .display-4 {
+    width: 614px;
+    height: 93px;
+    margin-left: 20px;
+    margin-top: 150px;
+    font-family: Ribeye;
+    font-size: 48px;
+    line-height: 66px;
+    color: rgba(60, 4, 31, 0.87);
+    font-family: 'Sriracha', cursive;
+}
+
+.jumbotron .Telepon {
+    width: 200px;
+    height: 70px;
+    margin-top: 200px;
+    margin-left: 20px;
+    background: #4BD2CA;
+}
+
+.jumbotron .Telepon:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.jumbotron .Telepon .Pesan .fas {
+    margin-right: 15px;
+}
+
+.jumbotron .Telepon .Pesan .text {
+    margin-top: -5px;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+.jumbotron .chating {
+    width: 200px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: -200px;
+    background: #5ED24B;
+}
+
+.jumbotron .chating:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.jumbotron .chating .whatsaap .fab {
+    margin-right: 15px;
+}
+
+.jumbotron .chating .whatsaap .text-left a {
+    margin-top: -7px;
+    margin-left: -10px;
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 20px;
+}
+
+
+/* Last Jumbotron  */
+
+
+/* First Content Card Ferry  */
+
+.container-C {
+    margin-top: 635px;
+}
+
+.container-C .row .satu {
+    height: 220px;
+    width: 100%;
+    background: rgba(159, 123, 123, 0.8);
+}
+
+.container-C .row .satu h2 {
+    font-size: 30px;
+    line-height: 45px;
+    font-family: 'Righteous', cursive;
+}
+
+.container-C .row .satu p {
+    font-family: 'Rokkitt', serif;
+    font-size: medium;
+}
+
+.container-C .row .dua {
+    height: 220px;
+    width: 100%;
+    margin-top: -1px;
+    background: #E6CA9D;
+}
+
+.container-C .row .dua h2 {
+    font-size: 30px;
+    line-height: 45px;
+    font-family: 'Righteous', cursive;
+}
+
+.container-C .row .dua p {
+    font-family: 'Rokkitt', serif;
+    font-size: medium;
+}
+
+.container-C .row .tiga {
+    height: 220px;
+    width: 100%;
+    margin-top: -1px;
+    padding-right: -30px;
+    background: #F1E2BC;
+}
+
+.container-C .row .tiga h2 {
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+.container-C .row .tiga p {
+    font-family: 'Rokkitt', serif;
+    font-size: medium;
+}
+
+
+/* 
+    /* Layanan */
+
+.layanan .container-layanan {
+    background: #F1E2BC;
+}
+
+#paragraf {
+    display: none;
+}
+
+.layanan .container-layanan h1 {
+    line-height: 190px;
+    font-family: 'Righteous', cursive;
+}
+
+.layanan .container-layanan .row .col-sm-6 p {
+    font-family: 'Rokkitt', serif;
+    font-size: medium;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.layanan .container-layanan-body {
+    background-image: url(../img/Jumbotronkontak.jpg);
+    width: 100%;
+    height: 720px;
+}
+
+.layanan .container-layanan-body h1 {
+    padding-top: 40px;
+    padding-left: -130px;
+    font-family: 'Righteous', cursive;
+}
+
+.layanan .container-layanan-body p {
+    font-family: Rokkitt;
+    font-style: normal;
+    font-size: 20px;
+    font-family: 'Rokkitt', serif;
+    font-size: medium;
+}
+
+.layanan .container-layanan-body .list ul {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: 'Rhodium Libre', serif;
+}
+
+.layanan .container-layanan-body .list-dua ul {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: 'Rhodium Libre', serif;
+}
+
+.layanan .container-layanan-body .list-dua ul li p {
+    margin-left: 5px;
+    font-family: 'Rhodium Libre', serif;
+    font-size: 25px;
+}
+
+
+/* Last content  */
+
+.jumbotron-S {
+    height: 1000x;
+    margin-top: -50px;
+    background-color: #F6E4B8;
+}
+
+.jumbotron-S .row .col-sm-4 .row .col-sm-12 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    margin-right: 10px;
+    width: 210px;
+}
+
+
+/* hubungi kami */
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .body {
+    height: 40px;
+    margin-top: -20px;
+    margin-bottom: -6px !important;
+}
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .body .card-title {
+    font-family: Rhodium Libre;
+    color: black;
+    font-size: 18px;
+}
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .card-content-bottom {
+    background: #E6CA9D;
+    box-shadow: inset 0px -16px 20px #1E1717;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .card-content-bottom .header {
+    font-size: 13px;
+    color: #F01D1D;
+    font-family: Rokkitt;
+}
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-wa {
+    background-color: #5ED24B;
+    width: 148px;
+    height: 50px;
+    justify-content: center;
+}
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-wa .fab {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-wa .font-whatsaap {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-telepon {
+    background-color: #4BD2CA;
+    width: 148px;
+    height: 50px;
+}
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-telepon .fas {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+
+.jumbotron-S .pagination .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-telepon .font-telepon {
+    font-size: 14px;
+    color: #000000;
+    margin-top: -35px;
+    margin-left: 50px;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+
+/* Contact ferry */
+
+.container-kontak {
+    background: #2B2015;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 10x;
+}
+
+.container-kontak h1 {
+    font-size: 40px;
+    line-height: 62px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: Righteous;
+}
+
+
+/* Last contact ferry */
+
+
+/* Content dibawah kontak */
+
+.Content {
+    height: 1040px;
+    margin-top: -8px;
+    background: url(../img/Jumbotronkontak.jpg);
+    mix-blend-mode: darken;
+}
+
+.Content .container h2 {
+    padding-top: 81px;
+    padding-left: 80px;
+    font-family: "Righteous";
+    font-size: 32px;
+    color: #000000;
+}
+
+.Content .container .center p {
+    font-size: 26px;
+    line-height: 37px;
+    color: #000000;
+    font-family: "Righteous";
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.Content .container-dua h2 {
+    padding-top: 80px;
+    margin-left: 90px;
+    font-family: "Righteous";
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.Content .container-dua .center p {
+    margin-left: 90px;
+    font-size: 26px;
+    line-height: 37px;
+    color: #000000;
+    font-family: "Righteous";
+    margin-top: 50px;
+}
+
+.Content .container-dua .center {
+    width: 400px;
+}
+
+
+/* Last content ferry */
+
+
+/* kamera grid ferry */
+
+.container-lensa {
+    background: #2B2015;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-lensa h1 {
+    font-size: 40px;
+    line-height: 62px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: "Righteous";
+}
+
+.jumbotron-lensa {
+    background-image: url(../img/Jumbotronkontak.jpg);
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: black;
+}
+
+.jumbotron-lensa h5 {
+    font-family: "Righteous";
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 {
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-right: -15px;
+    width: 210px;
+}
+
+
+/* hubungi kami */
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .body {
+    height: 40px;
+    margin-top: -20px;
+    margin-bottom: -6px !important;
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .body .card-title {
+    font-family: Rhodium Libre;
+    color: black;
+    font-size: 18px;
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .card-content-bottom {
+    background: #E6CA9D;
+    box-shadow: inset 0px -16px 20px #1E1717;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .card-content-bottom .header {
+    font-size: 13px;
+    color: #F01D1D;
+    font-family: Rokkitt;
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-wa {
+    background-color: #5ED24B;
+    width: 148px;
+    height: 50px;
+    justify-content: center;
+}
+
+.jumbotron-lensa .row .col-sm-4 .col-sm-12 .card-content-bottom .pesan-wa:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-wa .fab {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-wa .font-whatsaap {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-telepon {
+    background-color: #4BD2CA;
+    width: 148px;
+    height: 50px;
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-telepon:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-telepon .fas {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+
+.jumbotron-lensa .row .col-sm-4 .row .col-sm-12 .card-content-bottom .pesan-telepon .font-telepon {
+    font-size: 14px;
+    color: #000000;
+    margin-top: -35px;
+    margin-left: 50px;
+    font-family: 'Ribeye Marrow', cursive;
+}
+
+
+/* cara sewa */
+
+.cara-sewa .container {
+    background-color: #F1E2BC;
+}
+
+.cara-sewa .container .text-center p {
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Sriracha', cursive;
+    font-size: large;
+}
+
+ol li {
+    font-family: "Rokkitt";
+    font-size: large;
+}
+
+footer h1 {
+    font-family: "Righteous";
+}
+
+footer h4 {
+    font-family: "Righteous";
+}
+
+footer p {
+    font-family: "Rhodium Libre";
+}
+
+footer address {
+    font-family: "Rhodium Libre";
+}
+
+footer address {
+    font-family: "Rhodium Libre";
+}
+
+footer .bg-secondary {
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Sriracha', cursive;
+}
+
+a {
+    font-family: "Rhodium Libre";
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .navbar .container .navbar-brand {
+        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Sriracha', cursive;
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    .navbar-nav .nav-item .fa-grip-lines {
+        padding-left: 0px !important;
+    }
+    .jumbotron {
+        width: 100%;
+    }
+    .jumbotron .container-jumbotron .display-4 {
+        margin-left: 939px;
+        margin-top: 80px;
+    }
+    .jumbotron .Telepon {
+        margin-left: 875px;
+        margin-top: 130px;
+    }
+    .jumbotron .chating {
+        margin-left: 1080px;
+        margin-top: -100px;
+    }
+    .jumbotron-lensa .row .col-sm-4 .row .col-sm-12 {
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .container-C .row .satu {
+        padding-left: 38px;
+        background: rgba(159, 123, 123, 0.8);
+        width: 100%;
+    }
+    .container-C .row .dua {
+        width: 100%;
+    }
+    .container-C .row .tiga {
+        margin-left: -15px;
+        width: 100%;
+    }
+    .Content {
+        height: 960px;
+        height: 726px;
+        display: flex;
+    }
+    .Content .container-dua h2 {
+        margin-left: -80px;
+    }
+    .Content .container-dua .center p {
+        margin-left: -80px;
+    }
+    .layanan .container-layanan-body .list ul {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .layanan .container-layanan-body .list-dua ul {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-right: -200px;
+    }
+}
